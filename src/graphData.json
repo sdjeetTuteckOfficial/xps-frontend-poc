@@ -1,0 +1,972 @@
+{
+    "nodes": [
+        {
+            "name": "Bill Gates",
+            "dateOfBirth": "1955-10-28",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "positionHeld": "businessman",
+            "age": "7",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q5284",
+            "label": "Person"
+        },
+        {
+            "name": "Presidential Medal of Freedom",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:1",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q17144",
+            "label": "Award"
+        },
+        {
+            "name": "Melinda Gates",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:3",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q463877",
+            "label": "Person"
+        },
+        {
+            "name": "Microsoft",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:4",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q2283",
+            "label": "Organization"
+        },
+        {
+            "name": "Germany",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:6",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q183",
+            "label": "Location"
+        },
+        {
+            "name": "Paul Allen",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:7",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q162005",
+            "label": "Person"
+        },
+        {
+            "name": "Irish/Scots-Irish",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:8",
+            "wikidataUrl": "Irish/Scots-Irish",
+            "label": "Location"
+        },
+        {
+            "name": "English",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:9",
+            "wikidataUrl": "English",
+            "label": "Location"
+        },
+        {
+            "name": "Kristianne",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:10",
+            "wikidataUrl": "Kristianne",
+            "label": "Person"
+        },
+        {
+            "name": "Mary Maxwell Gates",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:11",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q454928",
+            "label": "Person"
+        },
+        {
+            "name": "William H. Gates Sr.",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:12",
+            "wikidataUrl": "William H. Gates Sr.",
+            "label": "Person"
+        },
+        {
+            "foundingDate": "2010",
+            "name": "The Giving Pledge",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:13",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q203807",
+            "label": "Organization"
+        },
+        {
+            "name": "Washington, D.C.",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:14",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q61",
+            "label": "Location"
+        },
+        {
+            "name": "Libby",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:15",
+            "wikidataUrl": "Libby",
+            "label": "Person"
+        },
+        {
+            "name": "Harvard University",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:16",
+            "wikidataUrl": "Harvard University",
+            "label": "Organization"
+        },
+        {
+            "name": "Breakthrough Energy Coalition",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:18",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q22317498",
+            "label": "Organization"
+        },
+        {
+            "name": "Lakeside School",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:19",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q7879362",
+            "label": "Organization"
+        },
+        {
+            "name": "Franklin Resources, Inc.",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:20",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q744683",
+            "label": "Organization"
+        },
+        {
+            "name": "Cascade Investment",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:21",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q4206709",
+            "label": "Organization"
+        },
+        {
+            "name": "Satya Nadella",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:5",
+            "positionHeld": "CEO",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q7426870",
+            "label": "Person"
+        },
+        {
+            "name": "J. W. Maxwell",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:17",
+            "positionHeld": "president",
+            "wikidataUrl": "J. W. Maxwell",
+            "label": "Person"
+        },
+        {
+            "name": "Seattle",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:22",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q5083",
+            "label": "Location"
+        },
+        {
+            "name": "Bill & Melinda Gates Foundation",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:23",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q655286",
+            "label": "Organization"
+        },
+        {
+            "name": "Forbes",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:24",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q25161472",
+            "label": "Organization"
+        },
+        {
+            "name": "United States",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:25",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q30",
+            "label": "Location"
+        },
+        {
+            "dateOfDeath": "1902-07-04",
+            "name": "Swami Vivekananda",
+            "dateOfBirth": "1863-01-12",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "positionHeld": "monk",
+            "age": "8",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q47478",
+            "label": "Person"
+        },
+        {
+            "name": "British Raj",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:27",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q129286",
+            "label": "Location"
+        },
+        {
+            "name": "Ramakrishna Mission",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:28",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q1311277",
+            "label": "Organization"
+        },
+        {
+            "name": "Bhubaneswari Devi",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:29",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q131311291",
+            "label": "Person"
+        },
+        {
+            "name": "Vishwanath Datta",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:30",
+            "positionHeld": "monk",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q48555311",
+            "label": "Person"
+        },
+        {
+            "name": "Raipur",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:31",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q372773",
+            "label": "Location"
+        },
+        {
+            "name": "Vedanta Society of Northern California",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:32",
+            "wikidataUrl": "Vedanta Society of Northern California",
+            "label": "Organization"
+        },
+        {
+            "name": "Persian",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:33",
+            "wikidataUrl": "Persian",
+            "label": "Location"
+        },
+        {
+            "name": "India",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:34",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q668",
+            "label": "Location"
+        },
+        {
+            "name": "Kolkata",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:35",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q1348",
+            "label": "Location"
+        },
+        {
+            "name": "Ramakrishna Math",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:36",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q3349233",
+            "label": "Organization"
+        },
+        {
+            "name": "Vidyasagar College",
+            "id": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:37",
+            "wikidataUrl": "http://www.wikidata.org/entity/Q7928225",
+            "label": "Organization"
+        }
+    ],
+    "links": [
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:1",
+            "type": "AWARDS",
+            "evidence": "Named as one of the 100 most influential people of the 20th century by Time magazine in 1999, he has received numerous other honors and accolades, including a Presidential Medal of Freedom, awarded jointly to him and French Gates in 2016 for their philanthropic work."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:1",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:3",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "WORK_RELATIONSHIP",
+            "evidence": "Over time, Gates reduced his role at Microsoft to focus on his philanthropic work with the Bill & Melinda Gates Foundation, the world's largest private charitable organization, which he and his then-wife Melinda French Gates co-chaired from 2000 until 2024."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:2",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:3",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "SOCIAL_RELATIONSHIP",
+            "isNotCurrent": "true",
+            "evidence": "Over time, Gates reduced his role at Microsoft to focus on his philanthropic work with the Bill & Melinda Gates Foundation, the world's largest private charitable organization, which he and his then-wife Melinda French Gates co-chaired from 2000 until 2024."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:3",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:3",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "FAMILY_MEMBER",
+            "isNotCurrent": "true",
+            "evidence": "Over time, Gates reduced his role at Microsoft to focus on his philanthropic work with the Bill & Melinda Gates Foundation, the world's largest private charitable organization, which he and his then-wife Melinda French Gates co-chaired from 2000 until 2024."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:4",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:4",
+            "type": "EMPLOYEE_OR_MEMBER_OF",
+            "evidence": "In 1973, he enrolled at Harvard University, where he took classes including Math 55 and graduate level computer science courses, but he dropped out in 1975 to co-found and lead Microsoft.",
+            "startTime": "1975"
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:5",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:6",
+            "type": "GEOGRAPHIC_HERITAGE",
+            "evidence": "His ancestry includes English, German, and Irish/Scots-Irish."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:6",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:4",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:7",
+            "type": "FOUNDED_BY",
+            "evidence": "A pioneer of the microcomputer revolution of the 1970s and 1980s, he co-founded the software company Microsoft in 1975 with his childhood friend Paul Allen."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:7",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:8",
+            "type": "GEOGRAPHIC_HERITAGE",
+            "evidence": "His ancestry includes English, German, and Irish/Scots-Irish."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:8",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:9",
+            "type": "GEOGRAPHIC_HERITAGE",
+            "evidence": "His ancestry includes English, German, and Irish/Scots-Irish."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:9",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:3",
+            "type": "WORK_RELATIONSHIP",
+            "evidence": "Over time, Gates reduced his role at Microsoft to focus on his philanthropic work with the Bill & Melinda Gates Foundation, the world's largest private charitable organization, which he and his then-wife Melinda French Gates co-chaired from 2000 until 2024."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:10",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:3",
+            "type": "SOCIAL_RELATIONSHIP",
+            "isNotCurrent": "true",
+            "evidence": "Over time, Gates reduced his role at Microsoft to focus on his philanthropic work with the Bill & Melinda Gates Foundation, the world's largest private charitable organization, which he and his then-wife Melinda French Gates co-chaired from 2000 until 2024."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:11",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:3",
+            "type": "FAMILY_MEMBER",
+            "isNotCurrent": "true",
+            "evidence": "Over time, Gates reduced his role at Microsoft to focus on his philanthropic work with the Bill & Melinda Gates Foundation, the world's largest private charitable organization, which he and his then-wife Melinda French Gates co-chaired from 2000 until 2024."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:12",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:10",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "FAMILY_MEMBER",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:13",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:10",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:14",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:10",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "SIBLING",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:15",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:11",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "FAMILY_MEMBER",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:16",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:11",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:17",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:12",
+            "type": "FAMILY_MEMBER",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:18",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:12",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:19",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:12",
+            "type": "HAS_PARENT",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:20",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:13",
+            "type": "EMPLOYEE_OR_MEMBER_OF",
+            "evidence": "In 2010, he and Warren Buffett founded the Giving Pledge, whereby they and other billionaires pledge to give at least half their wealth to philanthropy."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:21",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:14",
+            "type": "PERSON_LOCATION",
+            "evidence": "Born and raised in Seattle, Washington, Gates was privately educated at Lakeside School, where he befriended Allen and developed his computing interests."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:22",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:14",
+            "type": "PLACE_OF_BIRTH",
+            "evidence": "Born and raised in Seattle, Washington, Gates was privately educated at Lakeside School, where he befriended Allen and developed his computing interests."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:23",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:12",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "FAMILY_MEMBER",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:24",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:12",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:25",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:12",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "HAS_CHILD",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:10",
+            "type": "FAMILY_MEMBER",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:27",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:10",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:28",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:10",
+            "type": "SIBLING",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:29",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:15",
+            "type": "FAMILY_MEMBER",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:30",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:15",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:31",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:15",
+            "type": "SIBLING",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:32",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:16",
+            "type": "EDUCATED_AT",
+            "isNotCurrent": "true",
+            "evidence": "In 1973, he enrolled at Harvard University, where he took classes including Math 55 and graduate level computer science courses, but he dropped out in 1975 to co-found and lead Microsoft.",
+            "startTime": "1973"
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:33",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:7",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:14",
+            "type": "PERSON_LOCATION",
+            "evidence": "Born and raised in Seattle, Washington, Gates was privately educated at Lakeside School, where he befriended Allen and developed his computing interests."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:34",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:11",
+            "type": "FAMILY_MEMBER",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:35",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:11",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:36",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:15",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "FAMILY_MEMBER",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:37",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:15",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:38",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:15",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "SIBLING",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:39",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:10",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:15",
+            "type": "FAMILY_MEMBER",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:40",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:10",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:15",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:41",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:10",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:15",
+            "type": "SIBLING",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:42",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:18",
+            "type": "EMPLOYEE_OR_MEMBER_OF",
+            "isCurrent": "true",
+            "evidence": "Gates is founder and chairman of several other companies, including BEN, Cascade Investment, TerraPower, Gates Ventures, and Breakthrough Energy."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:43",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:7",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:4",
+            "type": "EMPLOYEE_OR_MEMBER_OF",
+            "evidence": "A pioneer of the microcomputer revolution of the 1970s and 1980s, he co-founded the software company Microsoft in 1975 with his childhood friend Paul Allen."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:44",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:19",
+            "type": "EDUCATED_AT",
+            "isNotCurrent": "true",
+            "evidence": "Born and raised in Seattle, Washington, Gates was privately educated at Lakeside School, where he befriended Allen and developed his computing interests."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:45",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:20",
+            "type": "EMPLOYEE_OR_MEMBER_OF",
+            "isNotCurrent": "true",
+            "evidence": "Gates is founder and chairman of several other companies, including BEN, Cascade Investment, TerraPower, Gates Ventures, and Breakthrough Energy.",
+            "positionHeld": "chairperson"
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:46",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:21",
+            "type": "EMPLOYEE_OR_MEMBER_OF",
+            "isNotCurrent": "true",
+            "evidence": "Gates is founder and chairman of several other companies, including BEN, Cascade Investment, TerraPower, Gates Ventures, and Breakthrough Energy."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:47",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:7",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "A pioneer of the microcomputer revolution of the 1970s and 1980s, he co-founded the software company Microsoft in 1975 with his childhood friend Paul Allen."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:48",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:7",
+            "type": "WORK_RELATIONSHIP",
+            "evidence": "A pioneer of the microcomputer revolution of the 1970s and 1980s, he co-founded the software company Microsoft in 1975 with his childhood friend Paul Allen."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:49",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:5",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:4",
+            "type": "EMPLOYEE_OR_MEMBER_OF",
+            "isCurrent": "true",
+            "evidence": "He stepped down as chairman of the board in 2014 and became technology adviser to CEO Satya Nadella and other Microsoft leaders, a position he still holds.",
+            "positionHeld": "CEO"
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:50",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:11",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:12",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:51",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:11",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:12",
+            "type": "FAMILY_MEMBER",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:52",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:11",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:12",
+            "type": "ROMANTIC_RELATIONSHIP",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:53",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:11",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:12",
+            "type": "SPOUSE",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:54",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:17",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "Gates's maternal grandfather J. W. Maxwell was a national bank president."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:55",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:17",
+            "type": "FAMILY_MEMBER",
+            "evidence": "Gates's maternal grandfather J. W. Maxwell was a national bank president."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:56",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:13",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "FOUNDED_BY",
+            "evidence": "In 2010, he and Warren Buffett founded the Giving Pledge, whereby they and other billionaires pledge to give at least half their wealth to philanthropy."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:57",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:5",
+            "type": "WORK_RELATIONSHIP",
+            "evidence": "He stepped down as chairman of the board in 2014 and became technology adviser to CEO Satya Nadella and other Microsoft leaders, a position he still holds."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:58",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:12",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:11",
+            "type": "FAMILY_MEMBER",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:59",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:12",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:11",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:60",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:12",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:11",
+            "type": "ROMANTIC_RELATIONSHIP",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:61",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:12",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:11",
+            "type": "SPOUSE",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:62",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:7",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:22",
+            "type": "PERSON_LOCATION",
+            "evidence": "Born and raised in Seattle, Washington, Gates was privately educated at Lakeside School, where he befriended Allen and developed his computing interests."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:63",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:4",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "FOUNDED_BY",
+            "evidence": "A pioneer of the microcomputer revolution of the 1970s and 1980s, he co-founded the software company Microsoft in 1975 with his childhood friend Paul Allen."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:64",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:4",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "CHIEF_EXECUTIVE_OFFICER",
+            "isNotCurrent": "true",
+            "evidence": "He served as its CEO for the next 25 years and also became president and chairman of the board when the company incorporated in 1981."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:65",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:23",
+            "type": "EMPLOYEE_OR_MEMBER_OF",
+            "evidence": "Over time, Gates reduced his role at Microsoft to focus on his philanthropic work with the Bill & Melinda Gates Foundation, the world's largest private charitable organization, which he and his then-wife Melinda French Gates co-chaired from 2000 until 2024."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:66",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:7",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "A pioneer of the microcomputer revolution of the 1970s and 1980s, he co-founded the software company Microsoft in 1975 with his childhood friend Paul Allen."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:67",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:7",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "WORK_RELATIONSHIP",
+            "evidence": "A pioneer of the microcomputer revolution of the 1970s and 1980s, he co-founded the software company Microsoft in 1975 with his childhood friend Paul Allen."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:68",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:24",
+            "type": "EDUCATED_AT",
+            "isNotCurrent": "true",
+            "evidence": "Born and raised in Seattle, Washington, Gates was privately educated at Lakeside School, where he befriended Allen and developed his computing interests."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:69",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:5",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "WORK_RELATIONSHIP",
+            "evidence": "He stepped down as chairman of the board in 2014 and became technology adviser to CEO Satya Nadella and other Microsoft leaders, a position he still holds."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:70",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:15",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:10",
+            "type": "FAMILY_MEMBER",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:71",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:15",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:10",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:72",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:15",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:10",
+            "type": "SIBLING",
+            "evidence": "Gates also has an older sister Kristi (Kristianne) and a younger sister Libby."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:73",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:22",
+            "type": "PERSON_LOCATION",
+            "evidence": "William Henry Gates III was born on October 28, 1955, in Seattle, Washington, as the only son of William H. Gates Sr. (1925–2020) and his first wife, Mary Maxwell Gates (1929–1994)."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:74",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:22",
+            "type": "PLACE_OF_BIRTH",
+            "evidence": "Born and raised in Seattle, Washington, Gates was privately educated at Lakeside School, where he befriended Allen and developed his computing interests."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:75",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:17",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "FAMILY_MEMBER",
+            "evidence": "Gates's maternal grandfather J. W. Maxwell was a national bank president."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:76",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:17",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "Gates's maternal grandfather J. W. Maxwell was a national bank president."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:77",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:25",
+            "type": "NATIONALITY",
+            "evidence": "William Henry Gates III  (born October 28, 1955) is an American businessman and philanthropist."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:78",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:0",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:25",
+            "type": "PERSON_LOCATION",
+            "evidence": "William Henry Gates III  (born October 28, 1955) is an American businessman and philanthropist."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:79",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:27",
+            "type": "PERSON_LOCATION",
+            "evidence": "Vivekananda was born as Narendranath Datta (name shortened to Narendra or Naren) in an aristocratic Bengali Kayastha family in his ancestral home at 3 Gourmohan Mukherjee Street in Calcutta, the capital of British India, on 12 January 1863 during the Makar Sankranti festival."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:80",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:28",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "type": "FOUNDED_BY",
+            "evidence": "In India, he founded the Ramakrishna Math, a monastic order for spiritual training, and the Ramakrishna Mission, dedicated to social services, education, and humanitarian work."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:81",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:29",
+            "type": "FAMILY_MEMBER",
+            "evidence": "His mother, Bhubaneswari Devi, was a devout housewife."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:82",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:29",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "His mother, Bhubaneswari Devi, was a devout housewife."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:83",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:29",
+            "type": "HAS_PARENT",
+            "evidence": "His mother, Bhubaneswari Devi, was a devout housewife."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:84",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:30",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "type": "FAMILY_MEMBER",
+            "evidence": "His father, Vishwanath Datta, was an attorney at the Calcutta High Court."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:85",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:30",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "Durgacharan Datta, Narendra's grandfather was a Sanskrit and Persian scholar who left his family and became a monk at age twenty-five."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:86",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:30",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "type": "HAS_CHILD",
+            "evidence": "His father, Vishwanath Datta, was an attorney at the Calcutta High Court."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:87",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:31",
+            "type": "PERSON_LOCATION",
+            "evidence": "In 1871, at the age of eight, Narendranath enrolled at Ishwar Chandra Vidyasagar's Metropolitan Institution, where he went to school until his family moved to Raipur in 1877.",
+            "startTime": "1877"
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:88",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:30",
+            "type": "FAMILY_MEMBER",
+            "evidence": "Durgacharan Datta, Narendra's grandfather was a Sanskrit and Persian scholar who left his family and became a monk at age twenty-five."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:89",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:30",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "His father, Vishwanath Datta, was an attorney at the Calcutta High Court."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:90",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:30",
+            "type": "HAS_PARENT",
+            "evidence": "His father, Vishwanath Datta, was an attorney at the Calcutta High Court."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:91",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:28",
+            "type": "EMPLOYEE_OR_MEMBER_OF",
+            "evidence": "In India, he founded the Ramakrishna Math, a monastic order for spiritual training, and the Ramakrishna Mission, dedicated to social services, education, and humanitarian work."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:92",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:32",
+            "type": "EMPLOYEE_OR_MEMBER_OF",
+            "evidence": "He established the Vedanta Society of New York and the Vedanta Society of San Francisco (now the Vedanta Society of Northern California), both of which became the foundations for later Vedanta Societies in the West."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:93",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:33",
+            "type": "GEOGRAPHIC_HERITAGE",
+            "evidence": "Durgacharan Datta, Narendra's grandfather was a Sanskrit and Persian scholar who left his family and became a monk at age twenty-five."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:94",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:29",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "type": "FAMILY_MEMBER",
+            "evidence": "His mother, Bhubaneswari Devi, was a devout housewife."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:95",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:29",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "type": "SOCIAL_RELATIONSHIP",
+            "evidence": "His mother, Bhubaneswari Devi, was a devout housewife."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:96",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:29",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "type": "HAS_CHILD",
+            "evidence": "His mother, Bhubaneswari Devi, was a devout housewife."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:97",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:34",
+            "type": "NATIONALITY",
+            "evidence": "Swami Vivekananda () (12 January 1863 – 4 July 1902), born Narendranath Datta, was an Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:98",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:34",
+            "type": "PERSON_LOCATION",
+            "evidence": "Swami Vivekananda () (12 January 1863 – 4 July 1902), born Narendranath Datta, was an Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:99",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:35",
+            "type": "PERSON_LOCATION",
+            "evidence": "In 1879, after his family's return to Calcutta, he was the only student to receive first-division marks in the Presidency College entrance examination.",
+            "startTime": "1879"
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:100",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:36",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:34",
+            "type": "ORGANIZATION_LOCATIONS",
+            "evidence": "In India, he founded the Ramakrishna Math, a monastic order for spiritual training, and the Ramakrishna Mission, dedicated to social services, education, and humanitarian work."
+        },
+        {
+            "id": "5:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:101",
+            "source": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:26",
+            "target": "4:d3d69ed7-62da-410c-a9d7-7db99a5e13bd:37",
+            "type": "EDUCATED_AT",
+            "isNotCurrent": "true",
+            "evidence": "In 1871, at the age of eight, Narendranath enrolled at Ishwar Chandra Vidyasagar's Metropolitan Institution, where he went to school until his family moved to Raipur in 1877."
+        }
+    ]
+}
