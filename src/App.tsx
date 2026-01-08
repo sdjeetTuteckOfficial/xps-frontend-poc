@@ -76,7 +76,6 @@ const DashboardLayout = () => {
     const COLOR_TABLE = '#228BE6'; // Blue
 
     const nodes = importedData.nodes.map((n) => {
-      // Check if label is Schema or Table
       const isSchema = n.label === 'Schema';
 
       return {
@@ -84,35 +83,44 @@ const DashboardLayout = () => {
           id: n.id,
           label: n.name,
           type: n.label,
-
-          // Color Logic: Yellow for Schema, Blue for Table
           color: isSchema ? COLOR_SCHEMA : COLOR_TABLE,
-
-          // REMOVED RANDOM ERROR LOGIC
-          // All nodes are now 'ok' by default
           status: 'ok',
-
           schema: n.schema || 'Root',
         },
       };
     });
 
-    const edges = importedData.links.map((l) => ({
-      data: {
-        id: l.id,
-        source: l.source,
-        target: l.target,
-        type: l.type,
-        logic: l.logic,
-        script: l.script_name,
-      },
-    }));
+    const edges = importedData.links.map((l) => {
+      // --- DATE FORMATTING LOGIC ---
+      let readableDate = null;
+      if (l.updated_at) {
+        readableDate = new Date(l.updated_at).toLocaleString('en-US', {
+          month: 'short', // "Jan"
+          day: 'numeric', // "7"
+          year: 'numeric', // "2026"
+          hour: 'numeric', // "1"
+          minute: '2-digit', // "44"
+          hour12: true, // "PM"
+        });
+      }
+
+      return {
+        data: {
+          id: l.id,
+          source: l.source,
+          target: l.target,
+          type: l.type,
+          logic: l.logic,
+          script: l.script_name,
+          updatedAt: readableDate, // Store the human-readable date
+        },
+      };
+    });
 
     return [...nodes, ...edges];
   }, []);
 
   const startAnimations = (cy) => {
-    // Only animate if there ARE error nodes (which there aren't now)
     const errorNodes = cy.nodes('[status="err"], [status="warn"]');
     const animateNode = (node) => {
       if (!node.inside()) return;
@@ -137,7 +145,6 @@ const DashboardLayout = () => {
     };
     errorNodes.forEach(animateNode);
 
-    // Traffic Animation (Marching Ants on edges)
     let offset = 0;
     const step = () => {
       offset = (offset - 1) % 50;
@@ -271,33 +278,58 @@ const DashboardLayout = () => {
             {selectedNodeData && (
               <Paper p='sm' withBorder mb='md' radius='md'>
                 <Group justify='space-between' mb='xs'>
-                  <Badge color={selectedNodeData.color} variant='filled'>
+                  <Badge
+                    color={selectedNodeData.color || 'blue'}
+                    variant='filled'
+                  >
                     {selectedNodeData.type}
                   </Badge>
-                  <Badge
-                    variant='dot'
-                    color={selectedNodeData.status === 'ok' ? 'green' : 'red'}
-                  >
-                    {selectedNodeData.status}
-                  </Badge>
+                  {selectedNodeData.status && (
+                    <Badge
+                      variant='dot'
+                      color={selectedNodeData.status === 'ok' ? 'green' : 'red'}
+                    >
+                      {selectedNodeData.status}
+                    </Badge>
+                  )}
                 </Group>
+
+                {/* Node Name or Edge Type */}
                 <Text fw={600} size='sm'>
                   {selectedNodeData.label}
                 </Text>
-                <Text size='xs' c='dimmed'>
-                  Schema: {selectedNodeData.schema}
-                </Text>
+
+                {/* Schema (Only for Nodes) */}
+                {selectedNodeData.schema && (
+                  <Text size='xs' c='dimmed'>
+                    Schema: {selectedNodeData.schema}
+                  </Text>
+                )}
+
+                {/* --- EXTRA EDGE DETAILS --- */}
                 {selectedNodeData.logic && (
-                  <Stack gap='xs' mt='xs'>
+                  <Stack gap={2} mt='md'>
                     <Text size='xs' fw={700} c='dimmed'>
                       Logic:
                     </Text>
-                    <Text size='xs'>{selectedNodeData.logic}</Text>
+                    <Text size='xs' style={{ lineHeight: 1.4 }}>
+                      {selectedNodeData.logic}
+                    </Text>
                   </Stack>
                 )}
                 {selectedNodeData.script && (
+                  <Text size='xs' c='dimmed' mt='xs'>
+                    Script:{' '}
+                    <Text span c='blue' inherit>
+                      {selectedNodeData.script}
+                    </Text>
+                  </Text>
+                )}
+
+                {/* --- DISPLAY THE READABLE DATE --- */}
+                {selectedNodeData.updatedAt && (
                   <Text size='xs' c='dimmed' mt={4}>
-                    Script: {selectedNodeData.script}
+                    Last Updated: {selectedNodeData.updatedAt}
                   </Text>
                 )}
               </Paper>
@@ -362,6 +394,7 @@ const DashboardLayout = () => {
               cy.on('tap', 'node', (evt) =>
                 setSelectedNodeData(evt.target.data())
               );
+              // Handle clicking on Edges
               cy.on('tap', 'edge', (evt) =>
                 setSelectedNodeData({
                   ...evt.target.data(),
