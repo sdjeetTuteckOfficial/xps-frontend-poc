@@ -20,20 +20,9 @@ import CytoscapeComponent from 'react-cytoscapejs';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ThemeToggle } from './components/ThemeToggle';
 
-// Your data import
+// IMPORT YOUR DATA
 import importedData from './graphData.json';
 
-const NODE_COLORS = {
-  Person: '#68BC00',
-  Organization: '#FF756E',
-  Location: '#57C7E3',
-  Award: '#FFD86E',
-  Technology: '#9D70FF',
-  Concept: '#F16667',
-  Default: '#A5ABB6',
-};
-
-// --- LOGIN SCREEN (Kept original) ---
 const LoginScreen = () => {
   const { login } = useAuth();
   return (
@@ -44,7 +33,7 @@ const LoginScreen = () => {
       <Paper radius='md' p='xl' withBorder style={{ width: '100%' }}>
         <Stack>
           <Title order={2} ta='center' c='blue'>
-            XPS 🚀
+            Data Lineage 🚀
           </Title>
           <TextInput label='Email' placeholder='you@company.com' required />
           <PasswordInput
@@ -65,7 +54,6 @@ const LoginScreen = () => {
   );
 };
 
-// --- MAIN DASHBOARD ---
 const DashboardLayout = () => {
   const [opened, { toggle }] = useDisclosure();
   const { logout, user } = useAuth();
@@ -81,33 +69,50 @@ const DashboardLayout = () => {
   const TEXT_COLOR = isDark ? '#cbd5e1' : '#212529';
   const LINE_COLOR = isDark ? '#475569' : '#ADB5BD';
 
-  // 1. Format data for Cytoscape
+  // --- MAP IMPORTED DATA TO CYTOSCAPE ---
   const elements = useMemo(() => {
-    const nodes = importedData.nodes.map((n) => ({
-      data: {
-        ...n,
-        label: n.name,
-        // Ensure status exists for animation logic
-        status: n.status || (Math.random() > 0.8 ? 'warn' : 'ok'),
-        color: NODE_COLORS[n.label] || NODE_COLORS.Default,
-      },
-    }));
+    // --- COLOR CONFIGURATION ---
+    const COLOR_SCHEMA = '#FFD700'; // Yellow/Gold
+    const COLOR_TABLE = '#228BE6'; // Blue
 
-    const edges = importedData.links.map((l, index) => ({
+    const nodes = importedData.nodes.map((n) => {
+      // Check if label is Schema or Table
+      const isSchema = n.label === 'Schema';
+
+      return {
+        data: {
+          id: n.id,
+          label: n.name,
+          type: n.label,
+
+          // Color Logic: Yellow for Schema, Blue for Table
+          color: isSchema ? COLOR_SCHEMA : COLOR_TABLE,
+
+          // REMOVED RANDOM ERROR LOGIC
+          // All nodes are now 'ok' by default
+          status: 'ok',
+
+          schema: n.schema || 'Root',
+        },
+      };
+    });
+
+    const edges = importedData.links.map((l) => ({
       data: {
-        id: `e${index}`,
+        id: l.id,
         source: l.source,
         target: l.target,
         type: l.type,
+        logic: l.logic,
+        script: l.script_name,
       },
     }));
 
     return [...nodes, ...edges];
   }, []);
 
-  // 2. Animation Logic (Pulse and Traffic)
   const startAnimations = (cy) => {
-    // A. Pulse Animation for Warn/Err nodes
+    // Only animate if there ARE error nodes (which there aren't now)
     const errorNodes = cy.nodes('[status="err"], [status="warn"]');
     const animateNode = (node) => {
       if (!node.inside()) return;
@@ -122,7 +127,7 @@ const DashboardLayout = () => {
           if (!node.inside()) return;
           node
             .animation({
-              style: { 'border-width': 2, 'border-opacity': 1 },
+              style: { 'border-width': 3, 'border-opacity': 1 },
               duration: 800,
             })
             .play()
@@ -132,7 +137,7 @@ const DashboardLayout = () => {
     };
     errorNodes.forEach(animateNode);
 
-    // B. Traffic Animation (Marching Ants)
+    // Traffic Animation (Marching Ants on edges)
     let offset = 0;
     const step = () => {
       offset = (offset - 1) % 50;
@@ -142,14 +147,12 @@ const DashboardLayout = () => {
     step();
   };
 
-  // 3. Cleanup animations on unmount
   useEffect(() => {
     return () => {
       if (animationRef.current) cancelAnimationFrame(animationRef.current);
     };
   }, []);
 
-  // 4. Cytoscape Stylesheet
   const stylesheet = [
     {
       selector: 'node',
@@ -163,7 +166,7 @@ const DashboardLayout = () => {
         'text-margin-y': '6px',
         width: 30,
         height: 30,
-        'border-width': 2,
+        'border-width': 3,
         'border-color': 'data(color)',
         'text-outline-width': 2,
         'text-outline-color': GRAPH_BG,
@@ -198,7 +201,7 @@ const DashboardLayout = () => {
         'line-dash-pattern': [6, 3],
         opacity: 0.4,
         label: 'data(type)',
-        'font-size': '9px',
+        'font-size': '8px',
         color: TEXT_COLOR,
         'text-rotation': 'autorotate',
         'text-background-opacity': 0.8,
@@ -243,7 +246,7 @@ const DashboardLayout = () => {
               size='sm'
             />
             <Title order={3} c='blue'>
-              XPS 🚀
+              Data Lineage 🚀
             </Title>
           </Group>
           <Group>
@@ -258,7 +261,7 @@ const DashboardLayout = () => {
       <AppShell.Navbar p='md'>
         <Stack gap='md' h='100%'>
           <Text size='xs' fw={700} c='dimmed' tt='uppercase'>
-            Infrastructure
+            Details
           </Text>
           <Button variant='light' onClick={() => cyRef.current?.fit(null, 50)}>
             Center View
@@ -268,8 +271,8 @@ const DashboardLayout = () => {
             {selectedNodeData && (
               <Paper p='sm' withBorder mb='md' radius='md'>
                 <Group justify='space-between' mb='xs'>
-                  <Badge color={NODE_COLORS[selectedNodeData.label]}>
-                    {selectedNodeData.label}
+                  <Badge color={selectedNodeData.color} variant='filled'>
+                    {selectedNodeData.type}
                   </Badge>
                   <Badge
                     variant='dot'
@@ -279,11 +282,24 @@ const DashboardLayout = () => {
                   </Badge>
                 </Group>
                 <Text fw={600} size='sm'>
-                  {selectedNodeData.name}
+                  {selectedNodeData.label}
                 </Text>
                 <Text size='xs' c='dimmed'>
-                  ID: {selectedNodeData.id}
+                  Schema: {selectedNodeData.schema}
                 </Text>
+                {selectedNodeData.logic && (
+                  <Stack gap='xs' mt='xs'>
+                    <Text size='xs' fw={700} c='dimmed'>
+                      Logic:
+                    </Text>
+                    <Text size='xs'>{selectedNodeData.logic}</Text>
+                  </Stack>
+                )}
+                {selectedNodeData.script && (
+                  <Text size='xs' c='dimmed' mt={4}>
+                    Script: {selectedNodeData.script}
+                  </Text>
+                )}
               </Paper>
             )}
 
@@ -311,7 +327,6 @@ const DashboardLayout = () => {
             overflow: 'hidden',
           }}
         >
-          {/* Background Grid Decoration */}
           <div
             style={{
               position: 'absolute',
@@ -337,20 +352,25 @@ const DashboardLayout = () => {
             layout={{
               name: 'cose',
               animate: true,
-              nodeRepulsion: 400000,
+              nodeRepulsion: 800000,
               componentSpacing: 100,
+              nodeOverlap: 20,
+              idealEdgeLength: 100,
             }}
             cy={(cy) => {
               cyRef.current = cy;
-
-              // Event Listeners
               cy.on('tap', 'node', (evt) =>
                 setSelectedNodeData(evt.target.data())
+              );
+              cy.on('tap', 'edge', (evt) =>
+                setSelectedNodeData({
+                  ...evt.target.data(),
+                  label: evt.target.data('type'),
+                })
               );
               cy.on('tap', (evt) => {
                 if (evt.target === cy) setSelectedNodeData(null);
               });
-
               cy.on('mouseover', 'node', (e) => {
                 cy.elements().addClass('dimmed');
                 e.target.addClass('highlight').removeClass('dimmed');
@@ -359,12 +379,9 @@ const DashboardLayout = () => {
                   .addClass('highlight')
                   .removeClass('dimmed');
               });
-
               cy.on('mouseout', 'node', () =>
                 cy.elements().removeClass('dimmed highlight')
               );
-
-              // Start Animations once ready
               cy.ready(() => startAnimations(cy));
             }}
           />
@@ -374,7 +391,6 @@ const DashboardLayout = () => {
   );
 };
 
-// --- ROOT APP ---
 export default function App() {
   return (
     <AuthProvider>
