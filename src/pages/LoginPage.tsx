@@ -4,7 +4,7 @@ import {
   Container,
   Paper,
   Stack,
-  Title,
+  Image,
   TextInput,
   PasswordInput,
   Button,
@@ -35,9 +35,7 @@ export const LoginPage = () => {
     >
       <Paper radius='md' p='xl' withBorder style={{ width: '100%' }}>
         <Stack>
-          <Title order={2} ta='center' c='blue'>
-            Data Lineage 🚀
-          </Title>
+          <Image src={new URL('../assets/xps.svg', import.meta.url).href} alt='XPS Logo' style={{ maxWidth: '200px', margin: '0 auto' }} />
           <TextInput label='Email' placeholder='you@company.com' required />
           <PasswordInput
             label='Password'

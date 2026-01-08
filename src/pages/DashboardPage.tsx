@@ -3,7 +3,7 @@ import {
   AppShell,
   Burger,
   Group,
-  Title,
+  Image,
   Button,
   Text,
   Paper,
@@ -221,9 +221,7 @@ export const DashboardPage = () => {
               hiddenFrom='sm'
               size='sm'
             />
-            <Title order={3} c='blue'>
-              Data Lineage 🚀
-            </Title>
+            <Image src={new URL('../assets/xps.svg', import.meta.url).href} alt='XPS Logo' style={{ height: '40px', width: 'auto' }} />
           </Group>
           <Group>
             <ThemeToggle />
