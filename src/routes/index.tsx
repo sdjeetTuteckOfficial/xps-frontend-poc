@@ -1,7 +1,10 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { ProtectedRoute } from '../components/ProtectedRoute';
 import { LoginPage } from '../pages/LoginPage';
-import { DashboardPage } from '../pages/DashboardPage';
+// import { DashboardPage } from '../pages/DashboardPage';
+import LineageExplorer from '../pages/ETLLineageVisualization';
+import EntityGalaxyGraph from "../pages/TestPage"
+import EntityDerivationGraph from "../pages/TestPage2"
 
 export const AppRoutes = () => {
   return (
@@ -14,7 +17,7 @@ export const AppRoutes = () => {
         path='/dashboard'
         element={
           <ProtectedRoute>
-            <DashboardPage />
+            <EntityGalaxyGraph />
           </ProtectedRoute>
         }
       />

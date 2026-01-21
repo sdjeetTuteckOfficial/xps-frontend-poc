@@ -1,0 +1,5676 @@
+{
+  "nodes": [
+    {
+      "id": "Account",
+      "type": "default",
+      "data": {
+        "label": "Account",
+        "description": "Represents an individual account, which is an organization or person involved with your business (such as customers, competitors, and partners).",
+        "attributes": [
+          {
+            "Field Name": "AccountNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "AccountSource",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ActivityMetricId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ActivityMetricRollupId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "AnnualRevenue",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "BillingAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "BillingCity",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingCountry",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingCountryCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "BillingGeocodeAccuracy",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "BillingLatitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "BillingLongitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "BillingPostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingState",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingStateCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "BillingStreet",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "ChannelProgramLevelName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ChannelProgramName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "CleanStatus",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ConnectionReceivedId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ConnectionSentId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Description",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "DunsNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Fax",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "Industry",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "IsBuyer",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsCustomerPortal",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsPartner",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsPersonAccount",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsPriorityRecord",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "Jigsaw",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "JigsawCompanyId",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "LastActivityDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "datetime"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "datetime"
+          },
+          {
+            "Field Name": "MasterRecordId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "NaicsCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "NumberOfEmployees",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "OperatingHoursId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "OwnerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ParentId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Phone",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "PhotoUrl",
+            "Data Type": "url"
+          },
+          {
+            "Field Name": "Rating",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ShippingAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "ShippingCity",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingCountry",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingCountryCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ShippingGeocodeAccuracy",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ShippingLatitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "ShippingLongitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "ShippingPostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingState",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingStateCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ShippingStreet",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "Sic",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "SicDesc",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Site",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "TickerSymbol",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Tradestyle",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Type",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Website",
+            "Data Type": "url"
+          },
+          {
+            "Field Name": "YearStarted",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "FirstName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "LastName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "MiddleName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Suffix",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Salutation",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PersonAssistantName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "PersonAssistantPhone",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "PersonBirthDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "PersonContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "PersonDepartment",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "PersonEmail",
+            "Data Type": "email"
+          },
+          {
+            "Field Name": "PersonEmailBouncedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "PersonEmailBouncedReason",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "PersonGenderIdentity",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PersonHasOptedOutOfEmail",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "PersonHomePhone",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "PersonLeadSource",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PersonMailingAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "PersonMailingCity",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "PersonMailingCountry",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "PersonMailingCountryCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PersonMailingGeocodeAccuracy",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PersonMailingLatitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "PersonMailingLongitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "PersonMailingPostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "PersonMailingState",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "PersonMailingStateCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PersonMailingStreet",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "PersonMobilePhone",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "PersonOtherAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "PersonOtherCity",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "PersonOtherCountry",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "PersonOtherCountryCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PersonOtherGeocodeAccuracy",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PersonOtherLatitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "PersonOtherLongitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "PersonOtherPhone",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "PersonOtherPostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "PersonOtherState",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "PersonOtherStateCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PersonOtherStreet",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "PersonPronouns",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PersonReportsToId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "PersonTitle",
+            "Data Type": "string"
+          }
+        ]
+      },
+      "position": {
+        "x": 250,
+        "y": 250
+      }
+    },
+    {
+      "id": "ActivityMetric",
+      "type": "default",
+      "data": {
+        "label": "ActivityMetric",
+        "description": "Represents activities that were added to Salesforce automatically by Einstein Activity Capture and manually by users.",
+        "attributes": [
+          {
+            "Field Name": "BaseId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "BaseType",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "FirstCallDateTime",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "FirstEmailDateTime",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "InactiveDays",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "LastActivityDateLastModDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastActivityDateTime",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastCallDateLastModDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastCallDateTime",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastEmailDateLastModDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastEmailDateTime",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastEmailReceivedDateTime",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastEmailSentDateTime",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastEventDateLastModDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastEventDateTime",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastTaskDateLastModDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastTaskDateTime",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "NextActivityDateLastModDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "NextActivityDateTime",
+            "Data Type": "dateTime"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "ContractGroupPlan",
+      "type": "default",
+      "data": {
+        "label": "ContractGroupPlan",
+        "description": "Represents a set of plans as part of the contract between the insurance carrier and the group. This set of plans corresponds to the plans included in the quote (as Quote Line Items). Child object of Contract. This object is available in API version 55.0 and later.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ContractGroupParentPlanId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ContractId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "EffectiveEndDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "EffectiveStartDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "EligibilityCriteria",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "EnrollmentEndDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "EnrollmentRatingType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "EnrollmentStartDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "EnrollmentWaitingPeriod",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "GroupNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "IsOptional",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OriginalContractPlanId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "PlanType",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "PricingStructure",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "ProductNumber",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "QuoteLineItemId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Status",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "UnitPrice",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "UsageType",
+            "Data Type": "picklist"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "InsurancePolicy",
+      "type": "default",
+      "data": {
+        "label": "InsurancePolicy",
+        "description": "Represents the type of insurance policy, such as auto, home, life, or annuity.",
+        "attributes": [
+          {
+            "Field Name": "ActualRenewalDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "AuditTerm",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "BillingCarrierAccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "BillingType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "CancellationDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "CancellationReason",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "CancellationReasonType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "CashSurrenderValue",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "ChangeSubtype",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ChangeType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "CommissionFrequency",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "CommissionPercent",
+            "Data Type": "percent"
+          },
+          {
+            "Field Name": "CurrentDueAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "DateRenewed",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "Discount",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "EffectiveDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "EffectiveFromDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "EffectiveToDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "EmployeeContribution",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "EmployerContribution",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "ExpectedRevenueAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "ExpirationDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "FinalRenewalDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "FundingType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "GrossWrittenPremium",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "HasAnyAutoCoverage",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IntermediaryAccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "IsActive",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsLoanEligibile",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsPolicyEditLocked",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsRenewedPolicy",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LineOfBusiness",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "LineOfCoverage",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "NameInsuredId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "OriginalEffectiveDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "OriginalEffectiveFromDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "OriginalEffectiveToDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "OriginalExpirationDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "OriginalPolicyId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "OwnerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "PaidToDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "ParentPolicyId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "PastDueAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "PaymentDueDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "PlannedRenewalDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "PlanTier",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PlanType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PolicyCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "PolicyDescription",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "PolicyName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "PolicyTerm",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PolicyType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PremiumAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "PremiumCalculationMethod",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PremiumFrequency",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PremiumPaymentType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PreviousPremium",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "PreviousRenewalDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "PriorPolicyId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ProducerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ProductId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "RatingDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "ReferencePolicyNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "RenewalChannel",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "RenewalDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "SaleDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "ServicingOffice",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "SourceOpportunityId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "SourceSystem",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "SourceSystemIdentifier",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "StandardFeeAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "StandardPremiumAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "StandardTaxAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "Status",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Substatus",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "TaxesSurcharges",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TermFeeAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TermPremiumAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TermTaxAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalStandardAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalSumInsured",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalTermFeeAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalTermPremiumAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalTermTaxAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "UnderwritingEntityId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "UniversalPolicyNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "WritingCarrierAccountId",
+            "Data Type": "reference"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "Case",
+      "type": "default",
+      "data": {
+        "label": "Case",
+        "description": "Represents a case, which is a customer issue or problem.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "AssetWarrantyId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "BusinessHoursId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "CaseNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ClosedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "ContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Description",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "IsClosed",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsEscalated",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "Language",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Origin",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "OwnerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ParentId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Priority",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Reason",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ServiceContractId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Status",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Subject",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "SuppliedEmail",
+            "Data Type": "email"
+          },
+          {
+            "Field Name": "Type",
+            "Data Type": "picklist"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "ActivityMetricRollup",
+      "type": "default",
+      "data": {
+        "label": "ActivityMetricRollup",
+        "description": "",
+        "attributes": [
+          {
+            "Field Name": "Id",
+            "Data Type": "id"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "WorkOrder",
+      "type": "default",
+      "data": {
+        "label": "WorkOrder",
+        "description": "Represents field service work to be performed for a customer. This object is available in API version 36.0 and later.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Address",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "AssetId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "BusinessHoursId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "CaseId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Description",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "Duration",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "EntitlementId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "GrandTotal",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "IsClosed",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "LocationId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "MaintenancePlanId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "OwnerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ParentWorkOrderId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Pricebook2Id",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Priority",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ServiceTerritoryId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Status",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "StatusCategory",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Subject",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Tax",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "WorkOrderNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "WorkTypeId",
+            "Data Type": "reference"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "User",
+      "type": "default",
+      "data": {
+        "label": "User",
+        "description": "Represents a user in your organization.",
+        "attributes": [
+          {
+            "Field Name": "AboutMe",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Address (beta)",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "Alias",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BadgeText",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BannerPhotoUrl",
+            "Data Type": "url"
+          },
+          {
+            "Field Name": "CallCenterId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "City",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "CommunityNickname",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "CompanyName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Country",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "CountryCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "CurrentStatus",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "DefaultCurrencyIsoCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "DefaultDivision",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "DefaultGroupNotificationFrequency",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "DelegatedApproverId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Department",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "DigestFrequency",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Division",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Email",
+            "Data Type": "email"
+          },
+          {
+            "Field Name": "EmailEncodingKey",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "EmailPreferencesAutoBcc",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "EmployeeNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "EndDay",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Extension",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "Fax",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "FederationIdentifier",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "FirstName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ForecastEnabled",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "FullPhotoUrl",
+            "Data Type": "url"
+          },
+          {
+            "Field Name": "GeocodeAccuracy",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "HasUserVerifiedEmail",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "HasUserVerifiedPhone",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IndividualId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "IsActive",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsPartner",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsPortalEnabled",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsPortalSelfRegistered",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsPrmSuperUser",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsProfilePhotoActive",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "JigsawImportLimitOverride",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "LanguageLocaleKey",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "LastLoginDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "datetime"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "datetime"
+          },
+          {
+            "Field Name": "Latitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "LocaleSidKey",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Longitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "Manager",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ManagerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "MediumBannerPhotoUrl",
+            "Data Type": "url"
+          },
+          {
+            "Field Name": "MiddleName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "MobilePhone",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "NumberOfFailedLogins",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "OfflineTrialExpirationDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "PasswordExpirationDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "Phone",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "PortalRole",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ProfileId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ReceivesAdminInfoEmails",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "ReceivesInfoEmails",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "SenderEmail",
+            "Data Type": "email"
+          },
+          {
+            "Field Name": "SenderName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Signature",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "SmallBannerPhotoUrl",
+            "Data Type": "url"
+          },
+          {
+            "Field Name": "SmallPhotoUrl",
+            "Data Type": "url"
+          },
+          {
+            "Field Name": "StartDay",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "State",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "StateCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Street",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "SuAccessExpirationDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "Suffix",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "TimeZoneSidKey",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Title",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Username",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "UserRoleId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "UserType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "WirelessEmail",
+            "Data Type": "email"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "AuthProvider",
+      "type": "default",
+      "data": {
+        "label": "AuthProvider",
+        "description": "Represents an authentication provider (auth provider). An auth provider lets users log in to your Salesforce org from an external service provider, such as Facebook, Google, or GitHub. ",
+        "attributes": [
+          {
+            "Field Name": "AppleTeam",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "AuthorizeUrl",
+            "Data Type": "url"
+          },
+          {
+            "Field Name": "ConsumerKey",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ConsumerSecret",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "CustomMetadataTypeRecord",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "DefaultScopes",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "DeveloperName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "EcKey",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ErrorUrl",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ExecutionUserId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "FlowDefaultAccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "FlowDefaultProfileId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "FriendlyName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "IconUrl",
+            "Data Type": "url"
+          },
+          {
+            "Field Name": "IdTokenIssuer",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "LinkKickoffUrl",
+            "Data Type": "url"
+          },
+          {
+            "Field Name": "LogoutUrl",
+            "Data Type": "url"
+          },
+          {
+            "Field Name": "OauthKickoffUrl",
+            "Data Type": "url"
+          },
+          {
+            "Field Name": "OptionsIncludeOrgIdInId",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "OptionsIsPkceEnabled",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "OptionsRequireMfa",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "OptionsSendAccessTokenInHeader",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "OptionsSendClientCredentialsInHeader",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "OptionsSendSecretInApis",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "PluginId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ProviderType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "RegistrationHandlerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "SsoKickoffUrl",
+            "Data Type": "url"
+          },
+          {
+            "Field Name": "TokenUrl",
+            "Data Type": "url"
+          },
+          {
+            "Field Name": "UserInfoUrl",
+            "Data Type": "url"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "ServiceContract",
+      "type": "default",
+      "data": {
+        "label": "ServiceContract",
+        "description": "Represents a customer support contract (business agreement). This object is available in API version 18.0 and later.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ActivationDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "ApprovalStatus",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "BillingAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "ContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ContractNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Discount",
+            "Data Type": "percent"
+          },
+          {
+            "Field Name": "StartDate / EndDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "GrandTotal",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "LineItemCount",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ParentServiceContractId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Pricebook2Id",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ShippingAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "SpecialTerms",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "Status",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Term",
+            "Data Type": "int"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "Order",
+      "type": "default",
+      "data": {
+        "label": "Order",
+        "description": "Represents an order associated with a contract or an account.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ActivatedById",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ActivatedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "BillingAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "BillingCity",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingCountry",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingEmailAddress",
+            "Data Type": "email"
+          },
+          {
+            "Field Name": "BillingGeocodeAccuracy",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "BillingPhoneNumber",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "BillingPostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingState",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingStreet",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "BillToContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "CompanyAuthorizedById",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "CompanyAuthorizedDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "ContractId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "CurrencyIsoCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "CustomerAuthorizedById",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "CustomerAuthorizedDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "Description",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "EffectiveDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "EndDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "ExternalCustomerReference",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "GrandTotalAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "IsReductionOrder",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OpportunityId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "OrderedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "OrderManagementReferenceIdentifier",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OrderNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OrderReferenceNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OriginalOrderId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "OwnerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "PaymentTermId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "PoDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "PoNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Pricebook2Id",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "QuoteId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "RecordTypeId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "RelatedOrderId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "RelatedOrderType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "SalesChannelId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "SalesStoreId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ShippingAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "ShippingCity",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingCountry",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingGeocodeAccuracy",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ShippingPostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingState",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingStreet",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "ShipToContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Status",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "StatusCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "TaxLocaleType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "TotalAdjDeliveryAmtWithTax",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalAdjProductAmtWithTax",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalAdjustedDeliveryAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalAdjustedDeliveryTaxAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalAdjustedProductAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalAdjustedProductTaxAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalDeliveryAdjDistAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalDeliveryAdjDistAmtWithTax",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalDeliveryAdjDistTaxAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalProductAdjDistAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalProductAdjDistAmtWithTax",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalProductAdjDistTaxAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalTaxAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "Type",
+            "Data Type": "picklist"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "GroupClass",
+      "type": "default",
+      "data": {
+        "label": "GroupClass",
+        "description": "Represents the classification of group members that receive similar benefits. Example classes include executives, union, and office workers. Child object of employer or group Account. This object is available in API version 55.0 and later.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Category",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Code",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Description",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "EffectiveEndDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "EffectiveStartDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ParentGroupClassId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "UsageType",
+            "Data Type": "picklist"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "UserRole",
+      "type": "default",
+      "data": {
+        "label": "UserRole",
+        "description": "Represents a user role in your organization.",
+        "attributes": [
+          {
+            "Field Name": "CaseAccessForAccountOwner",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ContactAccessForAccountOwner",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "DeveloperName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ForecastUserId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "MayForecastManagerShare",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OpportunityAccessForAccountOwner",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ParentRoleId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "PortalAccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "PortalRole",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PortalType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "RollupDescription",
+            "Data Type": "string"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "ProducerSplitAssignment",
+      "type": "default",
+      "data": {
+        "label": "ProducerSplitAssignment",
+        "description": "Represents information about commission split associated with a producer that's used to process commission statement. This object is available in API version 61 and later.",
+        "attributes": [
+          {
+            "Field Name": "CurrencyIsoCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "EffectiveDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "EndDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OwnerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ProducerSplitArrangementId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ReferenceRecordId",
+            "Data Type": "reference"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "Contract",
+      "type": "default",
+      "data": {
+        "label": "Contract",
+        "description": "Represents a contract (a business agreement) associated with an Account.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ActivatedById",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ActivatedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "ActivityMetricId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ActivityMetricRollupId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "AggregationStrategy",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "BillingAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "BillingCity",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingCountry",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingCountryCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "BillingGeocodeAccuracy",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "BillingLatitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "BillingLongitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "BillingPostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingState",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingStateCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "BillingStreet",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "CompanySignedDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "CompanySignedId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ContractNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ContractTerm",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "CustomerSignedDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "CustomerSignedId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "CustomerSignedTitle",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Description",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "EndDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "HasContractCotermination",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsPricingContract",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsDeleted",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "LastActivityDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "LastApprovedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "datetime"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "datetime"
+          },
+          {
+            "Field Name": "OwnerExpirationNotice",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "OwnerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Pricebook2Id",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "PricingSource",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "RecordTypeId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "RenewalTerm2",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "RenewalTermUnit",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ShippingAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "ShippingCity",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingCountry",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingCountryCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ShippingGeocodeAccuracy",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ShippingLatitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "ShippingLongitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "ShippingPostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingState",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingStateCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ShippingStreet",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "SourceQuoteId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "SpecialTerms",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "StartDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "Status",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "StatusCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "UnitPriceUplift",
+            "Data Type": "percent"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "ProducerSplitRoleAssignment",
+      "type": "default",
+      "data": {
+        "label": "ProducerSplitRoleAssignment",
+        "description": "Represents the revenue generating entities assocaited with an insurance policy and account. This object is available in API version 62 and later.",
+        "attributes": [
+          {
+            "Field Name": "CurrencyIsoCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "EffectiveDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "EndDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LineOfBusiness",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OwnerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ProducerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ProducerRole",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ReferenceRecordId",
+            "Data Type": "reference"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "GroupCensus",
+      "type": "default",
+      "data": {
+        "label": "GroupCensus",
+        "description": "Represents a snapshot of statistics about eligible members (employees or members) of a group (employer or association) and their legal dependents. Use this entity in quoting, rating, and the subsequent enrollment process. Child object of employer or group Account. This object is available in API version 55.0 and later.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ContractId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "EffectiveEndDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "EffectiveStartDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "ExternalIdentifier",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "FullTimeMemberCount",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "LeadId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "MbrWithMoreThan1ChldCount",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "MemberOptOutCount",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Status",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "TotalMembers",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "Type",
+            "Data Type": "picklist"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "Contact",
+      "type": "default",
+      "data": {
+        "label": "Contact",
+        "description": "Represents a contact, which is a person associated with an account.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ActionCadenceAssigneeId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ActionCadenceId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ActionCadenceState",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ActiveTrackerCount",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "ActivityMetricId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ActivityMetricRollupId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "AssistantName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "AssistantPhone",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "Birthdate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "BuyerAttributes",
+            "Data Type": "multipicklist"
+          },
+          {
+            "Field Name": "CanAllowPortalSelfReg",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "CleanStatus",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ConnectionReceivedId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ConnectionSentId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ContactSource",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Department",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "DepartmentGroup",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Description",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "DoNotCall",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "Email",
+            "Data Type": "email"
+          },
+          {
+            "Field Name": "EmailBouncedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "EmailBouncedReason",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Fax",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "FirstCallDateTime",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "FirstEmailDateTime",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "FirstName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "GenderIdentity",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "HasOptedOutOfEmail",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "HasOptedOutOfFax",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "HomePhone",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "IndividualId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "IsDeleted",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsEmailBounced",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsPersonAccount",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsPriorityRecord",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "Jigsaw",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "JigsawContactId",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "LastActivityDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "LastName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LeadSource",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "MailingAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "MailingCity",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "MailingCountry",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "MailingCountryCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "MailingGeocodeAccuracy",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "MailingLatitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "MailingLongitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "MailingPostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "MailingState",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "MailingStateCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "MailingStreet",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "MasterRecordId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "MiddleName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "MobilePhone",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OtherAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "OtherCity",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OtherCountry",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OtherCountryCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "OtherGeocodeAccuracy",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "OtherLatitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "OtherLongitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "OtherPhone",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "OtherPostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OtherState",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OtherStateCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "OtherStreet",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "OwnerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Phone",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "PhotoUrl",
+            "Data Type": "url"
+          },
+          {
+            "Field Name": "Pronouns",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "RecordTypeId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ReportsToId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Salutation",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ScheduledResumeDateTime",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "Suffix",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Title",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "TitleType",
+            "Data Type": "picklist"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "QuoteLineItemRecipient",
+      "type": "default",
+      "data": {
+        "label": "QuoteLineItemRecipient",
+        "description": "Represents a site, employee, or other entity for which services are being quoted. This could include details such as the recipient's name, contact information, associated site or location, and any specific requirements or preferences for the quoted services. This object is available in API version 62.0 and later.",
+        "attributes": [
+          {
+            "Field Name": "BroadbandConnectionType",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "MaxDownloadSpeed",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "MaxUploadSpeed",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "QuoteId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "RecipientType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ServiceAccount",
+            "Data Type": "entityid"
+          },
+          {
+            "Field Name": "ServiceAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "ServiceAddrValidationResult",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ServiceabilityCheckDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "ServiceabilityData",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "SiteName",
+            "Data Type": "string"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "Partner",
+      "type": "default",
+      "data": {
+        "label": "Partner",
+        "description": "Represents a partner relationship between two Account records or between an Opportunity record and an Account record.",
+        "attributes": [
+          {
+            "Field Name": "AccountToId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "AccountFromId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "OpportunityId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Role",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "IsPrimary",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "ReversePartnerId",
+            "Data Type": "reference"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "MaintenancePlan",
+      "type": "default",
+      "data": {
+        "label": "MaintenancePlan",
+        "description": "Represents a preventive maintenance schedule for one or more assets in field service.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Description",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "DoesAutoGenerateWorkOrders",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "DoesGenerateUponCompletion",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "EndDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "Frequency",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "FrequencyType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "GenerationHorizon",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "GenerationTimeframe",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "LocationId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "MaintenancePlanNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "MaintenancePlanTitle",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "NextSuggestedMaintenanceDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "ServiceContractId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "StartDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "WorkOrderGenerationMethod",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "WorkOrderGenerationStatus",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "WorkTypeId",
+            "Data Type": "reference"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "GroupCensusMember",
+      "type": "default",
+      "data": {
+        "label": "GroupCensusMember",
+        "description": "Represents personal information about a member, for example employee or association member, or their dependents. GroupCensusMember is used to estimate the insurance plan cost for the group. This object is also used in the enrollment process to retrieve the member and dependent details. Child object of GroupCensus. This object is available in API version 55.0 and later.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Address",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "AnnualEligibleSalary",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "Birthdate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "ContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "DependentCount",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "Email",
+            "Data Type": "email"
+          },
+          {
+            "Field Name": "FirstName / Lastname",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "FullTimeEquivalent",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "Gender",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "GroupCensusId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "GroupClassId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "IsOptOutAllPlans",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "JoinDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "MemberKey",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OptOutPlanTypes",
+            "Data Type": "multipicklist"
+          },
+          {
+            "Field Name": "PrimaryGroupCensusMemberId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "RelationshipToPrimaryMember",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "SmokerStatus",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Status",
+            "Data Type": "picklist"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "Producer",
+      "type": "default",
+      "data": {
+        "label": "Producer",
+        "description": "Represents an agent or an agency selling insurance.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "InternalUserId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OwnerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Type",
+            "Data Type": "picklist"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "PartnerNetworkConnection",
+      "type": "default",
+      "data": {
+        "label": "PartnerNetworkConnection",
+        "description": "Represents a Salesforce to Salesforce connection between Salesforce organizations.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ConnectionName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ConnectionStatus",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ConnectionType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "IsSyncAuditFields",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsSyncMetadata",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsSyncUsers",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "PrimaryContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ReplicationRole",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ResponseDate",
+            "Data Type": "dateTime"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "Opportunity",
+      "type": "default",
+      "data": {
+        "label": "Opportunity",
+        "description": "Represents an opportunity, which is a sale or pending deal.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ActivityMetricId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ActivityMetricRollupId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "AgeInDays",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "Amount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "CampaignId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "CloseDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "ConnectionReceivedId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ConnectionSentId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ContractId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "CurrencyIsoCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Description",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "ExpectedRevenue",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "ExportStatus",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Fiscal",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "FiscalQuarter",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "FiscalYear",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "ForecastCategory",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ForecastCategoryName",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "HasOpenActivity",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "HasOpportunityLineItem",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "HasOverdueTask",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IqScore",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "IsClosed",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsDeleted",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsExcludedFromTerritory2Filter",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsPriorityRecord",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsPrivate",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsSplit",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsWon",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "LastActivityDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "LastActivityInDays",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "LastAmountChangedHistoryId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "LastCloseDateChangedHistoryId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "datetime"
+          },
+          {
+            "Field Name": "LastStageChangeDate",
+            "Data Type": "datetime"
+          },
+          {
+            "Field Name": "LastStageChangeInDays",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "datetime"
+          },
+          {
+            "Field Name": "LeadSource",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "NextStep",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OwnerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "PartnerAccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Pricebook2Id",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "PricebookId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Probability",
+            "Data Type": "percent"
+          },
+          {
+            "Field Name": "PushCount",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "RecordTypeId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "StageName",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "SyncedQuoteID",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Territory2Id",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "TotalOpportunityQuantity",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "Type",
+            "Data Type": "picklist"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "InsurancePolicyParticipant",
+      "type": "default",
+      "data": {
+        "label": "InsurancePolicyParticipant",
+        "description": "A junction object that associates the InsurancePolicy object with the Account object. This object represents the participants of an insurance policy. Insurance policy participants include policy owners and beneficiaries.",
+        "attributes": [
+          {
+            "Field Name": "BeneficiarySharePercentage",
+            "Data Type": "percent"
+          },
+          {
+            "Field Name": "EffectiveDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "EffectiveFromDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "EffectiveToDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "ExpirationDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "InsurancePolicyId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "IsActiveParticipant",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsMinorBeneficiary",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsPolicyholder",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LegalGuardianId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ParticipantCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ParticipantName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "PrimaryParticipantAccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "PrimaryParticipantContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ProductId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "RelatedInsPolicyParticipantId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "RelatedParticipantAccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "RelatedParticipantContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "RelationshipToInsured",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Role",
+            "Data Type": "multipicklist"
+          },
+          {
+            "Field Name": "SourceSystem",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "SourceSystemIdentifier",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "StandardFeeAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "StandardPremiumAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "StandardTaxAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TermFeeAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TermPremiumAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TermTaxAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalStandardAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalTermAmount",
+            "Data Type": "currency"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "Entitlement",
+      "type": "default",
+      "data": {
+        "label": "Entitlement",
+        "description": "Represents the customer support an account or contact is eligible to receive. This object is available in API version 18.0 and later. Entitlements may be based on an asset, product, or service contract.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "AssetId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "AssetWarrantyId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "BusinessHoursId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "CasesPerEntitlement",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "ContractLineItemId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "EndDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "IsPerIncident",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "LocationId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "RemainingCases",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "RemainingWorkOrders",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "ServiceContractId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "SlaProcessId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "StartDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "Status",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "SvcApptBookingWindowsId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Type",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "WorkOrdersPerEntitlement",
+            "Data Type": "int"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "Lead",
+      "type": "default",
+      "data": {
+        "label": "Lead",
+        "description": "Represents a prospect or lead.",
+        "attributes": [
+          {
+            "Field Name": "ActionCadenceAssigneeId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ActionCadenceId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ActionCadenceState",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ActiveTrackerCount",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "ActivityMetricId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ActivityMetricRollupId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Address",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "AnnualRevenue",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "City",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "CleanStatus",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Company",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "CompanyDunsNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ConvertedAccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ConvertedContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ConvertedDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "ConvertedOpportunityId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Country",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "CountryCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "CurrencyIsoCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "DandBCompanyId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Description",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "Division",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Email",
+            "Data Type": "email"
+          },
+          {
+            "Field Name": "EmailBouncedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "EmailBouncedReason",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ExportStatus",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Fax",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "FirstCallDateTime",
+            "Data Type": "datetime"
+          },
+          {
+            "Field Name": "FirstEmailDateTime",
+            "Data Type": "datetime"
+          },
+          {
+            "Field Name": "FirstName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "GeocodeAccuracy",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "GenderIdentity",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "HasOptedOutOfEmail",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "HasOptedOutOfFax",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IndividualId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Industry",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "IsConverted",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsPriorityRecord",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsUnreadByOwner",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "Jigsaw",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "LastActivityDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "LastName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Latitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "LeadSource",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Longitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "MasterRecordId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "MiddleName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "MobilePhone",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "NumberOfEmployees",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "OwnerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "PartnerAccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Phone",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "PhotoUrl",
+            "Data Type": "url"
+          },
+          {
+            "Field Name": "PostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Pronouns",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Rating",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "RecordTypeId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Salutation",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ScheduledResumeDateTime",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "ScoreIntelligenceId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "State",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "StateCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Status",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Street",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "Suffix",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Title",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Website",
+            "Data Type": "url"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "BusinessLicense",
+      "type": "default",
+      "data": {
+        "label": "BusinessLicense",
+        "description": "Represents the licenses of a party role like healthcare provider or producer.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Identifier",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "IsActive",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "Issuer",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "JurisdictionCountry",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "LicenseClass",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "LineOfAuthority",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "PeriodEnd",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "PeriodStart",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "Status",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "UserId",
+            "Data Type": "reference"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "Asset",
+      "type": "default",
+      "data": {
+        "label": "Asset",
+        "description": "Represents an item of commercial value, such as a product sold by your company or a competitor, that a customer has purchased.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Address",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "AssetLevel",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "AssetProvidedById",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "AssetServicedById",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "AssetTypeId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Availability",
+            "Data Type": "percent"
+          },
+          {
+            "Field Name": "AveragetimetoRepair",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "AveragetimeBetweenFailure",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "AverageUptimePerDay",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "City",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ConsequenceOfFailure",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Country",
+            "Data Type": "String"
+          },
+          {
+            "Field Name": "CurrencyIsoCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "CurrentAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "CurrentLifecycleEndDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "CurrentMrr",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "CurrentQuantity",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "Description",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "DigitalAssetStatus",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ExternalIdentifier",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "GeocodeAccuracy",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "HasLifecycleManagement",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "InstallDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "IsCompetitorProduct",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "IsInternal",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "Latitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "LifecycleEndDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LifecycleStartDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LocationId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Longitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "ManufactureDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OwnerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ParentId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "PostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Price",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "PricingSource",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Product2Id",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ProductCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ProductDescription",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ProductFamily",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "PurchaseDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "Quantity",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "QuantityIncreasePricingType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "RecordTypeId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Reliability",
+            "Data Type": "percent"
+          },
+          {
+            "Field Name": "RenewalPricingType",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "RenewalTerm",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "RenewalTermUnit",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "RootAssetId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "SalesStoreId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "SerialNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "State",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Status",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "StatusReason",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "StockKeepingUnit",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "Street",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "SumDowntime",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "SumUnplannedDowntime",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "TotalLifecycleAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "UptimeRecordEnd",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "UptimeRecordStart",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "UsageEndDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "Uuid",
+            "Data Type": "string"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "Quote",
+      "type": "default",
+      "data": {
+        "label": "Quote",
+        "description": "Represents a quote, which is a record showing proposed prices for products and services. Available in API version 18.0 and later.\nQuotes can be created from and synced with opportunities, and emailed as PDFs to customers",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "AdditionalAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "AdditionalCity",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "AdditionalCountry",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "AdditionalCountryCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "AdditionalLatitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "AdditionalLongitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "AdditionalName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "AdditionalPostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "AdditionalState",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "AdditionalStateCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "AdditionalStreet",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "BillToContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "BillingAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "BillingCity",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingCountry",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingCountryCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "BillingLatitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "BillingLongitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "BillingName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingPostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingState",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "BillingStateCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "BillingStreet",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "CalculationStatus",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "CanCreateQuoteLineItems",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "ContactId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ContractId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "CurrencyIsoCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Description",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "Discount",
+            "Data Type": "percent"
+          },
+          {
+            "Field Name": "Email",
+            "Data Type": "email"
+          },
+          {
+            "Field Name": "ExpirationDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "Fax",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "GrandTotal",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "IsSyncing",
+            "Data Type": "boolean"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "LineItemCount",
+            "Data Type": "int"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OpportunityId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Phone",
+            "Data Type": "phone"
+          },
+          {
+            "Field Name": "Pricebook2Id",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "QuoteAccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "QuoteNumber",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "QuoteToAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "QuoteToCity",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "QuoteToCountry",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "QuoteToLatitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "QuoteToLongitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "QuoteToName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "QuoteToPostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "QuoteToState",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "QuoteToStreet",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "RecordTypeID",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "RelatedWorkId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "ShippingAddress",
+            "Data Type": "address"
+          },
+          {
+            "Field Name": "ShippingCity",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingCountry",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingCountryCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ShippingHandling",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "ShippingLatitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "ShippingLongitude",
+            "Data Type": "double"
+          },
+          {
+            "Field Name": "ShippingName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingPostalCode",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingState",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "ShippingStateCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ShippingStreet",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "Status",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "Subtotal",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "Tax",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalPrice",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalPriceWithTax",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalTaxAmount",
+            "Data Type": "currency"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "OperatingHours",
+      "type": "default",
+      "data": {
+        "label": "OperatingHours",
+        "description": "Represents the hours in which a service territory, service resource, or account is available for work. OperatingHours is used by Field Service, Salesforce Scheduler, Salesforce Meetings, Sales Engagement, and Workforce Engagement. This object is available in API version 38.0 and later.",
+        "attributes": [
+          {
+            "Field Name": "Description",
+            "Data Type": "textarea"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OwnerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "TimeZone",
+            "Data Type": "picklist"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "CommissionStatement",
+      "type": "default",
+      "data": {
+        "label": "CommissionStatement",
+        "description": "Represents commission summary associated with a party or Commission Statement Line Item. This object is available in API version 61 and later.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "AccountName",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "AccountingDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "CurrencyIsoCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "ExternalIdentifier",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OwnerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "PaymentMethod",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "StatementDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "Status",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "TotalBasisAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "TotalCommissionAmount",
+            "Data Type": "currency"
+          },
+          {
+            "Field Name": "Type",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "UsageType",
+            "Data Type": "picklist"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "BrokerOfRecord",
+      "type": "default",
+      "data": {
+        "label": "BrokerOfRecord",
+        "description": "Represents a legal authority for the brokerage to act on behalf of their clients with insurance carriers. This object is available in API version 61 and later.",
+        "attributes": [
+          {
+            "Field Name": "AccountId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "CurrencyIsoCode",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "EffectiveDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "EndDate",
+            "Data Type": "date"
+          },
+          {
+            "Field Name": "LastReferencedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LastViewedDate",
+            "Data Type": "dateTime"
+          },
+          {
+            "Field Name": "LineOfBusiness",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "LineOfCoverage",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "LostOpportunityId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Name",
+            "Data Type": "string"
+          },
+          {
+            "Field Name": "OwnerId",
+            "Data Type": "reference"
+          },
+          {
+            "Field Name": "Status",
+            "Data Type": "picklist"
+          },
+          {
+            "Field Name": "WonOpportunityId",
+            "Data Type": "reference"
+          }
+        ]
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "Account",
+      "target": "ActivityMetric",
+      "label": "ActivityMetricId",
+      "animated": true,
+      "style": {
+        "stroke": "#333"
+      },
+      "data": {
+        "relationshipType": "Outgoing",
+        "map": "Account.ActivityMetricId -> ActivityMetric.Id"
+      }
+    },
+    {
+      "id": "e1",
+      "source": "Account",
+      "target": "ActivityMetricRollup",
+      "label": "ActivityMetricRollupId",
+      "animated": true,
+      "style": {
+        "stroke": "#333"
+      },
+      "data": {
+        "relationshipType": "Outgoing",
+        "map": "Account.ActivityMetricRollupId -> ActivityMetricRollup.Id"
+      }
+    },
+    {
+      "id": "e2",
+      "source": "Account",
+      "target": "PartnerNetworkConnection",
+      "label": "ConnectionReceivedId",
+      "animated": true,
+      "style": {
+        "stroke": "#333"
+      },
+      "data": {
+        "relationshipType": "Outgoing",
+        "map": "Account.ConnectionReceivedId -> PartnerNetworkConnection.Id"
+      }
+    },
+    {
+      "id": "e3",
+      "source": "Account",
+      "target": "PartnerNetworkConnection",
+      "label": "ConnectionSentId",
+      "animated": true,
+      "style": {
+        "stroke": "#333"
+      },
+      "data": {
+        "relationshipType": "Outgoing",
+        "map": "Account.ConnectionSentId -> PartnerNetworkConnection.Id"
+      }
+    },
+    {
+      "id": "e4",
+      "source": "Account",
+      "target": "Account",
+      "label": "MasterRecordId",
+      "animated": true,
+      "style": {
+        "stroke": "#333"
+      },
+      "data": {
+        "relationshipType": "Outgoing",
+        "map": "Account.MasterRecordId -> Account.Id"
+      }
+    },
+    {
+      "id": "e5",
+      "source": "Account",
+      "target": "OperatingHours",
+      "label": "OperatingHoursId",
+      "animated": true,
+      "style": {
+        "stroke": "#333"
+      },
+      "data": {
+        "relationshipType": "Outgoing",
+        "map": "Account.OperatingHoursId -> OperatingHours.Id"
+      }
+    },
+    {
+      "id": "e6",
+      "source": "Account",
+      "target": "User",
+      "label": "OwnerId",
+      "animated": true,
+      "style": {
+        "stroke": "#333"
+      },
+      "data": {
+        "relationshipType": "Outgoing",
+        "map": "Account.OwnerId -> User.Id"
+      }
+    },
+    {
+      "id": "e7",
+      "source": "Account",
+      "target": "Account",
+      "label": "ParentId",
+      "animated": true,
+      "style": {
+        "stroke": "#333"
+      },
+      "data": {
+        "relationshipType": "Outgoing",
+        "map": "Account.ParentId -> Account.Id"
+      }
+    },
+    {
+      "id": "e8",
+      "source": "Account",
+      "target": "Contact",
+      "label": "PersonContactId",
+      "animated": true,
+      "style": {
+        "stroke": "#333"
+      },
+      "data": {
+        "relationshipType": "Outgoing",
+        "map": "Account.PersonContactId -> Contact.Id"
+      }
+    },
+    {
+      "id": "e9",
+      "source": "Account",
+      "target": "Contact",
+      "label": "PersonReportsToId",
+      "animated": true,
+      "style": {
+        "stroke": "#333"
+      },
+      "data": {
+        "relationshipType": "Outgoing",
+        "map": "Account.PersonReportsToId -> Contact.Id"
+      }
+    },
+    {
+      "id": "e10",
+      "source": "Account",
+      "target": "Account",
+      "label": "MasterRecordId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Account.MasterRecordId -> Account.Id"
+      }
+    },
+    {
+      "id": "e11",
+      "source": "Account",
+      "target": "Account",
+      "label": "ParentId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Account.ParentId -> Account.Id"
+      }
+    },
+    {
+      "id": "e12",
+      "source": "Asset",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Asset.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e13",
+      "source": "Asset",
+      "target": "Account",
+      "label": "AssetProvidedById",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Asset.AssetProvidedById -> Account.Id"
+      }
+    },
+    {
+      "id": "e14",
+      "source": "Asset",
+      "target": "Account",
+      "label": "AssetServicedById",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Asset.AssetServicedById -> Account.Id"
+      }
+    },
+    {
+      "id": "e15",
+      "source": "AuthProvider",
+      "target": "Account",
+      "label": "FlowDefaultAccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "AuthProvider.FlowDefaultAccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e16",
+      "source": "BrokerOfRecord",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "BrokerOfRecord.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e17",
+      "source": "Case",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Case.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e18",
+      "source": "CommissionStatement",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "CommissionStatement.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e19",
+      "source": "Contact",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Contact.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e20",
+      "source": "Contract",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Contract.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e21",
+      "source": "ContractGroupPlan",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "ContractGroupPlan.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e22",
+      "source": "Entitlement",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Entitlement.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e23",
+      "source": "GroupClass",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "GroupClass.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e24",
+      "source": "InsurancePolicy",
+      "target": "Account",
+      "label": "BillingCarrierAccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "InsurancePolicy.BillingCarrierAccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e25",
+      "source": "InsurancePolicy",
+      "target": "Account",
+      "label": "IntermediaryAccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "InsurancePolicy.IntermediaryAccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e26",
+      "source": "InsurancePolicy",
+      "target": "Account",
+      "label": "UnderwritingEntityId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "InsurancePolicy.UnderwritingEntityId -> Account.Id"
+      }
+    },
+    {
+      "id": "e27",
+      "source": "InsurancePolicy",
+      "target": "Account",
+      "label": "WritingCarrierAccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "InsurancePolicy.WritingCarrierAccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e28",
+      "source": "InsurancePolicyParticipant",
+      "target": "Account",
+      "label": "PrimaryParticipantAccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "InsurancePolicyParticipant.PrimaryParticipantAccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e29",
+      "source": "InsurancePolicyParticipant",
+      "target": "Account",
+      "label": "RelatedParticipantAccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "InsurancePolicyParticipant.RelatedParticipantAccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e30",
+      "source": "MaintenancePlan",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "MaintenancePlan.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e31",
+      "source": "Opportunity",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Opportunity.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e32",
+      "source": "Opportunity",
+      "target": "Account",
+      "label": "PartnerAccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Opportunity.PartnerAccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e33",
+      "source": "Order",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Order.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e34",
+      "source": "PartnerNetworkConnection",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "PartnerNetworkConnection.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e35",
+      "source": "Producer",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Producer.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e36",
+      "source": "ProducerSplitAssignment",
+      "target": "Account",
+      "label": "ReferenceRecordId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "ProducerSplitAssignment.ReferenceRecordId -> Account.Id"
+      }
+    },
+    {
+      "id": "e37",
+      "source": "ProducerSplitRoleAssignment",
+      "target": "Account",
+      "label": "ReferenceRecordId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "ProducerSplitRoleAssignment.ReferenceRecordId -> Account.Id"
+      }
+    },
+    {
+      "id": "e38",
+      "source": "Quote",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Quote.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e39",
+      "source": "Quote",
+      "target": "Account",
+      "label": "QuoteAccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Quote.QuoteAccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e40",
+      "source": "QuoteLineItemRecipient",
+      "target": "Account",
+      "label": "ServiceAccount",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "QuoteLineItemRecipient.ServiceAccount -> Account.Id"
+      }
+    },
+    {
+      "id": "e41",
+      "source": "ServiceContract",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "ServiceContract.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e42",
+      "source": "User",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "User.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e43",
+      "source": "UserRole",
+      "target": "Account",
+      "label": "PortalAccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "UserRole.PortalAccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e44",
+      "source": "WorkOrder",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "WorkOrder.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e45",
+      "source": "BusinessLicense",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "BusinessLicense.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e46",
+      "source": "GroupCensus",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "GroupCensus.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e47",
+      "source": "Lead",
+      "target": "Account",
+      "label": "ConvertedAccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Lead.ConvertedAccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e48",
+      "source": "GroupCensusMember",
+      "target": "Account",
+      "label": "AccountId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "GroupCensusMember.AccountId -> Account.Id"
+      }
+    },
+    {
+      "id": "e49",
+      "source": "Partner",
+      "target": "Account",
+      "label": "AccountToId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Partner.AccountToId -> Account.Id"
+      }
+    },
+    {
+      "id": "e50",
+      "source": "Partner",
+      "target": "Account",
+      "label": "AccountFromId",
+      "animated": true,
+      "style": {
+        "stroke": "#007bff"
+      },
+      "data": {
+        "relationshipType": "Incoming",
+        "map": "Partner.AccountFromId -> Account.Id"
+      }
+    }
+  ]
+}
